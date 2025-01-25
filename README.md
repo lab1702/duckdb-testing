@@ -42,4 +42,4 @@ On the Dell T7910 with 28 cores and 28 threads (HT off), on average 8.8 were act
 
 On The Lenovo P920 with 48 cores and 48 threads (HT off), on average 10.8 were active on Windows and 31.6 were active on Linux.
 
-**I'm not sure why this happens.**
+**I'm not sure why this happens.** In particular, it's odd to me that WSL2 inside Windows performs stronger than the host OS on the same hardware.
