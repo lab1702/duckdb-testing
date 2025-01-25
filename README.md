@@ -4,6 +4,8 @@ I decided to compare DuckDB performance between Windows and Linux running in WSL
 
 I have 3 computers that I used for testing, each have Windows Server 2025 installed, with WSL2 and Ubuntu 24.04.1 enabled. All OS patches are applied as of 1/24/2025.
 
+I use the official duckdb binaries for 1.1.3 on both Windows and Linux when creating the database and I use the official Python package installed via pip on both as well.
+
 On both Windows and Linux, I generated my own TPC-H SF100 file inside a local directory (on C: for Windows, and on the /home partition for Linux) using this command:
 
     CALL dbgen(sf = 100);
