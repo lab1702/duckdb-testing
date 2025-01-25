@@ -15,3 +15,11 @@ See [res.csv](res.csv) for the detailed results including computer specs.
 ### Elapsed Time
 
 <img src="elapsed.svg">
+
+## CPU Time
+
+<img src="cpu.svg">
+
+## Average Concurrent Threads
+
+<img src="concurrent.svg">
