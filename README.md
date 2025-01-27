@@ -1,6 +1,6 @@
 # DuckDB Performance Testing
 
-I decided to compare [DuckDB](/duckdb/duckdb) performance between Windows and Linux running in WSL2.
+I decided to compare [DuckDB](https://github.com/duckdb/duckdb) performance between Windows and Linux running in WSL2.
 
 I have 3 computers that I used for testing, each have Windows Server 2025 installed, with WSL2 and Ubuntu 24.04.1 enabled. All OS patches are applied as of 1/24/2025.
 
